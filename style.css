@@ -10,7 +10,7 @@ body {
 }
 
 .pimg1 {
-    background: url(images/image1.png);
+    background: url(image1.png);
     min-height: 100%;
     position: relative;
     background-position: center;
@@ -19,14 +19,14 @@ body {
 }
 
 .pimg2 {
-    background: url(images/image2.png);
+    background: url(image2.png);
     min-height: 400px;
     background-size: cover;
 }
 
 .pimg3 {
 
-    background: url(images/image3.png);
+    background: url(/image3.png);
     min-height: 500px;
     background-size: cover;
 
