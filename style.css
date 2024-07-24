@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background: url(images/image1.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pimg2 {
+    background: url(images/image2.png);
+    min-height: 400px;
+    background-size: cover;
+}
+
+.pimg3 {
+
+    background: url(images/image3.png);
+    min-height: 500px;
+    background-size: cover;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 4px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+
+}
+
+.textBg {
+    background: #313534;
+    color: white;
+    padding: 20px;
+
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+.paragraph {
+    padding: 10px;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+
+.section-light {
+    background: color #f4f4f4;
+    color: gray;
+    padding: 50px 80px;
+}
+
+
+.pimg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.new.jpg {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black;
+    letter-spacing: 4px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.section-Dark {
+    background: #282e34;
+    color: #ddd;
+}
